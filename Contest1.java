@@ -6,7 +6,6 @@ public class Contest1 {
   public static List < String > splitString(String str, char esc) {
     List < String > result = new ArrayList < String > ();
 
-    // Your Logic goes here
     boolean inchar = false;
     StringBuilder temp = new StringBuilder();
     for (char c: str.toCharArray()) {
